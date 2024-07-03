@@ -24,6 +24,7 @@
 		F1D330C32C35436500B21B82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F1D330CA2C35437900B21B82 /* DrugItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugItem.swift; sourceTree = "<group>"; };
 		F1D330CF2C3548D400B21B82 /* GetDrugsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDrugsView.swift; sourceTree = "<group>"; };
+		F1D330D12C3550CF00B21B82 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +42,7 @@
 		F1D330B02C35436300B21B82 = {
 			isa = PBXGroup;
 			children = (
+				F1D330D12C3550CF00B21B82 /* README.md */,
 				F1D330CF2C3548D400B21B82 /* GetDrugsView.swift */,
 				F1D330BB2C35436300B21B82 /* Drug Store (JOKE) */,
 				F1D330BA2C35436300B21B82 /* Products */,

@@ -11,6 +11,9 @@
 		F1D330BF2C35436300B21B82 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D330BE2C35436300B21B82 /* ContentView.swift */; };
 		F1D330C12C35436500B21B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D330C02C35436500B21B82 /* Assets.xcassets */; };
 		F1D330C42C35436500B21B82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D330C32C35436500B21B82 /* Preview Assets.xcassets */; };
+		F1D330CB2C35437900B21B82 /* DrugItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D330CA2C35437900B21B82 /* DrugItem.swift */; };
+		F1D330CE2C3543FC00B21B82 /* Forever in Frameworks */ = {isa = PBXBuildFile; productRef = F1D330CD2C3543FC00B21B82 /* Forever */; };
+		F1D330D02C3548D400B21B82 /* GetDrugsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D330CF2C3548D400B21B82 /* GetDrugsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,8 @@
 		F1D330BE2C35436300B21B82 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F1D330C02C35436500B21B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1D330C32C35436500B21B82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1D330CA2C35437900B21B82 /* DrugItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugItem.swift; sourceTree = "<group>"; };
+		F1D330CF2C3548D400B21B82 /* GetDrugsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDrugsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D330CE2C3543FC00B21B82 /* Forever in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +41,7 @@
 		F1D330B02C35436300B21B82 = {
 			isa = PBXGroup;
 			children = (
+				F1D330CF2C3548D400B21B82 /* GetDrugsView.swift */,
 				F1D330BB2C35436300B21B82 /* Drug Store (JOKE) */,
 				F1D330BA2C35436300B21B82 /* Products */,
 			);
@@ -53,6 +60,7 @@
 			children = (
 				F1D330BC2C35436300B21B82 /* Drug_Store__JOKE_App.swift */,
 				F1D330BE2C35436300B21B82 /* ContentView.swift */,
+				F1D330CA2C35437900B21B82 /* DrugItem.swift */,
 				F1D330C02C35436500B21B82 /* Assets.xcassets */,
 				F1D330C22C35436500B21B82 /* Preview Content */,
 			);
@@ -83,6 +91,9 @@
 			dependencies = (
 			);
 			name = "Drug Store (JOKE)";
+			packageProductDependencies = (
+				F1D330CD2C3543FC00B21B82 /* Forever */,
+			);
 			productName = "Drug Store (JOKE)";
 			productReference = F1D330B92C35436300B21B82 /* Drug Store (JOKE).app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +122,9 @@
 				Base,
 			);
 			mainGroup = F1D330B02C35436300B21B82;
+			packageReferences = (
+				F1D330CC2C3543FC00B21B82 /* XCRemoteSwiftPackageReference "Forever" */,
+			);
 			productRefGroup = F1D330BA2C35436300B21B82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D330BF2C35436300B21B82 /* ContentView.swift in Sources */,
+				F1D330D02C3548D400B21B82 /* GetDrugsView.swift in Sources */,
 				F1D330BD2C35436300B21B82 /* Drug_Store__JOKE_App.swift in Sources */,
+				F1D330CB2C35437900B21B82 /* DrugItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1D330CC2C3543FC00B21B82 /* XCRemoteSwiftPackageReference "Forever" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jiachenyee/Forever.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1D330CD2C3543FC00B21B82 /* Forever */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1D330CC2C3543FC00B21B82 /* XCRemoteSwiftPackageReference "Forever" */;
+			productName = Forever;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F1D330B12C35436300B21B82 /* Project object */;
 }

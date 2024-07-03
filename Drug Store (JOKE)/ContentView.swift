@@ -12,7 +12,7 @@ import Forever
 
 
 struct ContentView: View {
-    @State var showWarning = false
+    @State var showWarning = true
     @State var warningText: String = "Tap to view warning"
     @State var usingForRealLife = false
     @State var lawEnforcement = false
